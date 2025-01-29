@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang ="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, inital-scale=1.0">
+    <title>Michael Carolan Profile Page</title>
+</head>
+<body>
+  <h1>Michael Carolan Profile Page</h1>
+  <div>
+  <h3 id="C1">Basic Profile Information</h3>
+  <p>Hi, my name is Michael Carolan, and I'm a computer science major.</p>
+  <img src="img_">
+  </div>
+
+  <div>
+  <h3 id="C2">Education Summary</h3>
+  <p>
+    I have a high school diploma from Archbishop Molloy, and I'm currently pursuing a <br>
+    Bachelor's degree in Computer Science in my third year.
+  </p>
+  </div>
+
+  <div>
+  <h3 id="C3">Work Experience</h3>
+      <p>I currently do not have any formal work experience or Internships in any Computer Science related<br>
+      fields, but I have worked on small personal projects such as Calculators.</p>
+  </div>
+
+  <div>
+  <h3 id="C4">Programming Skills</h3>
+    <table>
+      <tr>
+        <th><span style="color:orangered">Java</span></th>
+        <th><span style="color:green">Python</span></th>
+      </tr>
+      <tr>
+        <td>Fundamental Courses as well as small<br> personal Projects</td>
+        <td>Started Learning via online materials;<br> Same level as Java</td>
+      </tr>
+    </table>
+  </div>
+
+  <div>
+  <h3 id="C5">General Interests</h3>
+    <p>In my free time, I enjoy playing guitar, working out, watching anime, and hanging out with friends.</p>
+  </div>
+
+  <div>
+  <h3>Favorite song, film, TV show</h3>
+   <ul>
+      <li>
+        <p>Favorite song: Touch the Sky - Kanye West</p><br>
+          <iframe width="560" height="315" src="https://www.youtube.com/embed/B95OUKk7alM?si=ZvtWSe7YouaJFxqP"
+                  title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write;
+                  encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin"
+                  allowfullscreen></iframe>
+      </li>
+      <li>
+        <p>Favorite film:</p>
+
+
+
+      </li>
+      <li>
+        <p>Favorite TV show: Attack on Titan</p>
+          <iframe width="560" height="315" src="https://www.youtube.com/embed/fUOIStyw9b4?si=gkxrmbJl24RKp-SK"
+                  title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media;
+                  gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+      </li>
+
+    </ul>
+  </div>
+
+  <div>
+  <h3 id="C6">Favorite Websites</h3>
+  <ul>
+    <li><a href="https://www.youtube.com" target="_blank"> Click here to go to YouTube.com.</a><br>
+      This link takes you to YouTube.com. I've included it in my list of favorite websites<br>
+      because of how versatile it is as a resource that can range from education to entertainment<br>
+      with a seemingly endless supply of videos available for free at any time.</li>
+    <li><a href="https://www.amazon.com" target="_blank"> Click here to go to amazon.com. </a><br>
+      This link takes you to amazon.com, which I've included among my favorite websites because <br>
+      of how convenient it makes shopping and how often I use it.</li>
+  </ul>
+  </div>
+
+  <div>
+  <h3 id="C7">Menu Section</h3>
+    <form>
+       <input type="button" value="Basic Information Section" onclick="window.location.href='#C1'" style="margin-bottom: 10px;"><br>
+       <input type="button" value="Education Summary" onclick="window.location.href='#C2'"style="margin-bottom: 10px;"><br>
+       <input type="button" value="Work Experience" onclick="window.location.href='#C3'"style="margin-bottom: 10px;"><br>
+       <input type="button" value="Programming Skills" onclick="window.location.href='#C4'"style="margin-bottom: 10px;"><br>
+       <input type="button" value="General Interests" onclick="window.location.href='#C5'"style="margin-bottom: 10px;"><br>
+       <input type="button" value="Favorite Websites" onclick="window.location.href='#C6'"style="margin-bottom: 10px;"><br>
+       <input type="button" value="My Projects in this Course" onclick="window.location.href='#C8'"style="margin-bottom: 10px;"><br>
+    </form>
+  </div>
+
+  <div>
+  <h3 id="C8">My Projects in this Course</h3><br>
+      <ol>
+     <li><a href="https://stjohns.instructure.com/courses/92254/assignments/638798?module_item_id=2021203">Project 1: Implement and Deploy a Profile Page (Milestone 1)</a></li>
+      </ol>
+  </div>
+
+</body>
+</html>

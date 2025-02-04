@@ -17,8 +17,19 @@ img{
 
 }
 table{
-
+    width: 100%;
+    text-align: center;
+    border-collapse: collapse;
 }
+
+th {
+    padding-bottom: 20px;
+}
+
+td {
+    vertical-align: top;
+}
+
 form{
 
 }
@@ -31,4 +42,19 @@ p{
 }
 a{
 
+}
+.fav{
+    font-weight: bolder;
+    color:black;
+}
+iframe {
+    width: 100%;
+    max-width: 460px;
+    height: 315px;
+    display: block;
+    margin: 0 auto;
+}
+#favo {
+    width: 100%;
+    margin: 0 auto;
 }

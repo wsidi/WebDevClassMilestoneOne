@@ -1,20 +1,23 @@
+body{
+    background-color: beige;
+}
 div{
-    background: beige;
     color:gray;
 }
 
 span{
-
+    font : normal 15px Verdana;
 }
 ul{
-
+    list-style-type: disc;
 }
 li{
     font-weight:bold;
     font-stretch: ultra-condensed;
 }
 img{
-
+    width: 50%;
+    height: 50%;
 }
 table{
     width: 100%;
@@ -31,17 +34,23 @@ td {
 }
 
 form{
-
+    text-align: center;
+    max-width: 300px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
 }
 h1{
 
     color: red;
 }
 p{
-
+    font-family: "Verdana";
 }
 a{
-
+    font-family: "Verdana";
 }
 .fav{
     font-weight: bolder;
@@ -57,4 +66,7 @@ iframe {
 #favo {
     width: 100%;
     margin: 0 auto;
+}
+#f{
+    color:black
 }

@@ -13,14 +13,17 @@
   </style>
 </head>
 <body>
-<h1>Michael Carolan Profile Page</h1>
-<div>
+<div id="Header">
+  <h1>Michael Carolan</h1>
+  <h2>Profile Page</h2>
+</div>
+<div class="infor pos">
   <h3 id="C1">Basic Profile Information</h3>
   <p>Hi, my name is Michael Carolan, and I'm a computer science major.</p>
-  <img src= ../fogo.jpg>
+  <img src= ../fogo.jpg id="Me"><br>
 </div>
 
-<div>
+<div class="infor neg">
   <h3 id="C2">Education Summary</h3>
   <p>
     I have a high school diploma from Archbishop Molloy, and I'm currently pursuing a <br>
@@ -31,7 +34,7 @@
   </ul>
 </div>
 
-<div id="C11">
+<div id="C11" class="infor pos">
   <h3 id="C3">Work Experience</h3>
   <p>I currently do not have any formal work experience or Internships in any Computer Science related<br>
     fields, but I have worked on small personal projects such as Calculators.</p>
@@ -41,7 +44,7 @@
   </ul>
 </div>
 
-<div>
+<div class="infor neg">
   <h3 id="C4">Programming Skills</h3>
   <ul>
 
@@ -54,13 +57,13 @@
   </ul>
 </div>
 
-<div>
+<div class="infor pos">
   <h3 id="C5">General Interests</h3>
   <p>In my free time, I enjoy learning about computers, playing guitar, kickboxing, and watching anime.</p>
   <img src="https://58eca9fdf76150b92bfa-3586c28d09a33a8c605ed79290ca82aa.ssl.cf3.rackcdn.com/fender-fsr-reclaimed-eastern-pine-stratocaster-dark-stain-342877.jpg">
 </div>
 
-<div id="f">
+<div id="f" class="infor neg">
   <h3>Favorite song, film, TV show</h3>
   <table id="favo">
     <tr>
@@ -91,7 +94,7 @@
   </table>
 </div>
 
-<div>
+<div class="infor pos">
   <h3 id="C6">Favorite Websites</h3>
   <ul>
     <li><a href="https://www.youtube.com" target="_blank"> Click here to go to YouTube.com.</a><br>
@@ -104,7 +107,7 @@
   </ul>
 </div>
 
-<div>
+<div class="infor neg">
   <h3 id="C7">Menu Section</h3>
   <form>
     <input type="button" value="Basic Information Section" onclick="window.location.href='#C1'" style="margin-bottom: 10px;"><br>
@@ -117,7 +120,7 @@
   </form>
 </div>
 
-<div>
+<div class="infor pos">
   <h3 id="C8">My Projects in this Course</h3><br>
   <ol>
     <li><a href="https://stjohns.instructure.com/courses/92254/assignments/638798?module_item_id=2021203" target="_blank">Project 1: Implement and Deploy a Profile Page (Milestone 1)</a><br>

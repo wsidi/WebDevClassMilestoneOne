@@ -1,5 +1,6 @@
 function grow(){
     if(onmousedown() === true){
+        docu
 
     }
 }

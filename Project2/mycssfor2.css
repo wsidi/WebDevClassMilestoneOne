@@ -10,29 +10,3 @@ body{
     background-size: cover;
     animation: fadein 2s;
     }
-div{
-    text-align: center;
-}
-
-#TaskCreation{
-    float: left;
-    background-color: white;
-    animation: fadein 5s;
-    margin: 200px 200px 200px 200px;
-    border: 5px solid black;
-}
-#TaskReview{
-    float: right;
-    background-color: white;
-    animation: fadein 5s;
-    margin: 200px 200px 200px 200px;
-    border: 5px solid black;
-
-}
-header{
-    text-align: center;
-    color: white;
-    font-weight: bold;
-    font-size: 50px;
-    animation: fadein 4s;
-}

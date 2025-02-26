@@ -9,4 +9,5 @@ body{
     /*background-image: url("https://media1.tenor.com/m/9vRAkntogEMAAAAd/background.gif"); */
     background-size: cover;
     animation: fadein 2s;
+    padding: 20px 20px 20px 20px;
     }

@@ -6,8 +6,30 @@
          }
 }
 body{
-    /*background-image: url("https://media1.tenor.com/m/9vRAkntogEMAAAAd/background.gif"); */
+    background-image: url("https://media1.tenor.com/m/9vRAkntogEMAAAAd/background.gif");
     background-size: cover;
     animation: fadein 2s;
     padding: 20px 20px 20px 20px;
     }
+.inUse{
+    background: whitesmoke;
+    padding: 20px;
+    border-radius: 5px;
+    margin: 10px 10px 10px 10px
+}
+header{
+    text-align: center;
+    color: white;
+    font-size: 50px;
+}
+#TaskDesc{
+    width: 700px;
+    height: 300px;
+    font-size: 18px;
+    padding: 10px;
+    line-height: 20px;
+    vertical-align: top;
+}
+#TaskTitle{
+    width: 400px;
+}

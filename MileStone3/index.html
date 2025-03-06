@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang ="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, inital-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="cssForM3/mycssweb.css">
+    <link rel="stylesheet" href="cssForM3/mycsstab.css">
+    <title>Michael Carolan Profile Page</title>
+    <style>
+        h3{
+            font-weight: bolder;
+            color: dimgrey;
+        }
+    </style>
+</head>
+<body>
+<div id="Header">
+    <h1>Michael Carolan</h1>
+    <h2>Profile Page</h2>
+</div>
+<div class="container">
+<div class="row">
+
+<div class="infor pos col-md-7">
+    <h3 id="C1">Basic Profile Information</h3>
+    <p>Hi, my name is Michael Carolan, and I'm a computer science major.</p>
+    <img src= ../fogo.jpg id="Me"><br>
+</div>
+
+<div class="infor neg col-md-4">
+    <h3 id="C2">Education Summary</h3>
+    <div class="alert alert-success" role="alert">
+        Currently pursuing Bachelor's degree in Computer Science
+    </div>
+    <div class="alert alert-info" role="alert">
+        High School Diploma - Archbishop Molloy
+    </div>
+</div>
+</div>
+<div id="C11" class="infor pos">
+    <h3 id="C3">Work Experience</h3>
+    <p>I currently do not have any formal work experience or Internships in any Computer Science related<br>
+        fields, but I have worked on small personal projects such as Calculators.</p>
+    <ul>
+        <li>Calculator for Physics equations - Java</li>
+        <li>Facial Recognition Software - Python, OpenCV</li>
+    </ul>
+</div>
+<div class="row">
+<div class="infor neg col-md-4">
+    <h3 id="C4">Programming Skills</h3>
+    <ul>
+        <li>
+            <p><span class="badge bg-danger">Java</span> - Fundamental Courses as well as small personal Projects</p>
+        </li>
+        <li>
+            <p><span class="badge bg-success">Python</span> - Started Learning via online materials; Same level as Java</p>
+        </li>
+    </ul>
+</div>
+
+<div class="infor pos col-md-7">
+    <h3 id="C5">General Interests</h3>
+    <p>In my free time, I enjoy learning about computers, playing guitar, kickboxing, and watching anime.</p>
+    <img src="https://58eca9fdf76150b92bfa-3586c28d09a33a8c605ed79290ca82aa.ssl.cf3.rackcdn.com/fender-fsr-reclaimed-eastern-pine-stratocaster-dark-stain-342877.jpg">
+</div>
+</div>
+<div id="f" class="infor neg">
+    <h3>Favorite song, film, TV show</h3>
+    <table id="favo">
+        <tr>
+            <th><span class="fav">Favorite Song:</span> Touch the Sky - Kanye West</th>
+            <th><span class="fav">Favorite Film:</span> Interstellar</th>
+            <th><span class="fav">Favorite Tv Show:</span> Attack on Titan</th>
+        </tr>
+        <tr>
+            <td>
+                <iframe src="https://www.youtube.com/embed/B95OUKk7alM?si=ZvtWSe7YouaJFxqP"
+                        title="YouTube video player" frameborder="0"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                        referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+            </td>
+            <td>
+                <iframe src="https://www.youtube.com/embed/2LqzF5WauAw?si=UtAXyNr6uo-pVgw7"
+                        title="YouTube video player" frameborder="0"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                        referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+            </td>
+            <td>
+                <iframe src="https://www.youtube.com/embed/fUOIStyw9b4?si=gkxrmbJl24RKp-SK"
+                        title="YouTube video player" frameborder="0"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                        referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+            </td>
+        </tr>
+    </table>
+</div>
+
+<div class="infor pos">
+    <h3 id="C6">Favorite Websites</h3>
+    <div class="list-group">
+        <a href="https://www.youtube.com" class="list-group-item list-group-item-action" target="_blank">
+            <h5 class="mb-1">YouTube.com</h5>
+            <p class="mb-1">A versatile resource ranging from education to entertainment with endless free content.</p>
+        </a>
+        <a href="https://www.amazon.com" class="list-group-item list-group-item-action" target="_blank">
+            <h5 class="mb-1">Amazon.com</h5>
+            <p class="mb-1">Makes shopping convenient and is frequently used for various purchases.</p>
+        </a>
+    </div>
+</div>
+
+<div class="infor neg" id="Menu">
+    <h3 id="C7">Menu Section</h3>
+    <form>
+        <button class="btn btn-secondary mb-2 w-100" onclick="window.location.href='#C1'">Basic Information Section</button>
+        <button class="btn btn-secondary mb-2 w-100" onclick="window.location.href='#C2'">Education Summary</button>
+        <button class="btn btn-secondary mb-2 w-100" onclick="window.location.href='#C3'">Work Experience</button>
+        <button class="btn btn-secondary mb-2 w-100" onclick="window.location.href='#C4'">Programming Skills</button>
+        <button class="btn btn-secondary mb-2 w-100" onclick="window.location.href='#C5'">General Interests</button>
+        <button class="btn btn-secondary mb-2 w-100" onclick="window.location.href='#C6'">Favorite Websites</button>
+        <button class="btn btn-secondary mb-2 w-100" onclick="window.location.href='#C8'">My Projects</button>
+    </form>
+</div>
+
+<div class="infor pos" id="Projects">
+    <h3 id="C8">My Projects in this Course</h3><br>
+    <div class="card mb-3">
+        <div class="card-body">
+            <h5 class="card-title">Project 1: Profile Page (Milestone 1)</h5>
+            <p class="card-text">For this assignment, I was tasked with creating a simple html based webpage that lists basic details about myself and publishing it publicly to the internet via github pages.</p>
+            <a href="https://stjohns.instructure.com/courses/92254/assignments/638798?module_item_id=2021203" class="btn btn-primary" target="_blank">Assignment Details</a>
+            <a href="https://wsidi.github.io/WebDevClassMilestoneOne/MileStone1/" class="btn btn-secondary" target="_blank">View Website</a>
+        </div>
+    </div>
+    <div class="card">
+        <div class="card-body">
+            <h5 class="card-title">Project 2: Profile Page (Milestone 2)</h5>
+            <p class="card-text">For this assignment, I was asked to take the profile page I created last time and to update its appearance with css.</p>
+            <a href="https://stjohns.instructure.com/courses/92254/assignments/638799?module_item_id=2021207" class="btn btn-primary" target="_blank">Assignment Details</a>
+            <a href="https://wsidi.github.io/WebDevClassMilestoneOne/MileStone2/" class="btn btn-secondary" target="_blank">View Website</a>
+        </div>
+    </div>
+    <div class="card">
+        <div class="card-body">
+            <h5 class="card-title">Project 3: Profile Page (Milestone 3)</h5>
+            <p class="card-text">For this assignment, I was asked to take the profile page from Milestone 2 and modify it with the Bootstrap5 framework.</p>
+            <a href="https://stjohns.instructure.com/courses/92254/assignments/638800" class="btn btn-primary" target="_blank">Assignment Details</a>
+            <a href="https://wsidi.github.io/WebDevClassMilestoneOne/MileStone3/" class="btn btn-secondary" target="_blank">View Website</a>
+        </div>
+    </div>
+</div>
+</div>
+</body>
+</html>
